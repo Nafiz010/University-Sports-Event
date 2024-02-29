@@ -1,0 +1,204 @@
+/*header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+  opacity: .9;
+}*/
+
+
+.container {
+	padding: 0 5%;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color: #F1F1F1;
+}
+
+
+nav{
+	width: 40%;
+	margin:auto;
+}
+
+
+
+
+ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+#check{
+	display:none;
+}
+
+
+.icon{
+	font-size:50px;
+	display:none;
+}
+
+
+@media(max-width:500px){
+	
+	#check:checked + ul li {
+	display:block;
+	}
+	
+	ul li{
+	display:none;
+}
+
+	
+	.icon{
+	display:block;
+
+}
+}
+
+ul li {
+	float:left;
+	width:100px;
+	height:50px;
+	background-color:#262625;
+	line-height:50px;
+	text-align:center;
+	margin-right:2px;
+	opacity:.9;
+}
+
+ul li a {
+	text-decoration:none;
+	color: white;
+	display:block;
+}
+
+
+
+
+
+video {
+  width: 36%;
+  height: auto;
+  float: right;
+}
+
+
+#b1{
+	float: right;
+	background-color: #2150FF;
+	width: 58%;
+	height: 400px;
+	opacity: .9;
+	margin: 20px 0px 0px 0px;
+}
+
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+
+#book{
+	background-color: white;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#b2{
+	float: right;
+	text-align: center;
+	background-color: #2150FF;
+	width: 100%;
+	height: 600px;
+	margin: 20px 0px 0px 0px;
+}
+
+
+#b3{
+	float: right;
+	text-align: center;
+	background-color: #2150FF;
+	width: 100%;
+	height: 600px;
+	margin: 20px 0px 0px 0px;
+}
+
+#b4{
+	float: right;
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background-color: #2150FF;
+	margin: 20px 0px 0px 0px;
+}
+
+
+#b5{
+	float: right;
+	text-align: center;
+	width: 100%;
+	height: 1800px;
+	background-color: #2150FF;
+	margin: 20px 0px 0px 0px;
+}
+
+
+#b6{
+	float: right;
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background-color: #2150FF;
+	margin: 20px 0px 0px 0px;
+}
+
+
+#b7{
+	float: right;
+	text-align: center;
+	width: 100%;
+	height: 600px;
+	background-color: #2150FF;
+	margin: 20px 0px 0px 0px;
+}
+
+
+/*
+footer{
+	float: left;
+	display: block;
+	position: bottom;
+}*/
+
